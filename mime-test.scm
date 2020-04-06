@@ -1,4 +1,4 @@
-(import (scheme base) (mime) (cyclone string) (cyclone test))
+(import (scheme base) (cyclone mime) (cyclone string) (cyclone test))
 (test-group "mime"
 
       (test '(text/html (charset . "UTF-8") (filename . "index.html"))
